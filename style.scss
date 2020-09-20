@@ -13,7 +13,8 @@ main {
   //   margin-left: 85vh;
   margin-top: 100px;
 }
-.motion {
+.motion1 {
+  background: #f30606;
   padding: 30px;
   margin: auto;
   display: block;
@@ -25,7 +26,42 @@ main {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  transition: ease-in-out 0.7s;
+  transform: skew(-50deg, 20deg);
 }
+.motion2 {
+  background: rgb(155, 141, 14);
+  padding: 30px;
+  margin: auto;
+  display: block;
+  max-width: 330px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  transition: ease-in-out 0.7s;
+  transform: skew(-50deg, 20deg);
+}
+.motion3 {
+  background: #22611e;
+  padding: 30px;
+  margin: auto;
+  display: block;
+  max-width: 330px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  transition: ease-in-out 0.7s;
+  transform: skew(-50deg, 20deg);
+}
+
 .text1 {
   transition: ease-in-out 0.7s;
   font-size: 55px;
@@ -53,7 +89,7 @@ main {
 }
 .text2:hover {
   transition: ease-in-out 0.7s;
-  transform: skew(50deg, -10deg);
+  transform: skew(50deg, -30deg);
 }
 .text3:hover {
   transition: ease-in-out 0.7s;
